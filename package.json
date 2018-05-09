@@ -1,0 +1,35 @@
+{
+  "name": "hyperledger-fabric-webapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/body-parser": "^1.16.0",
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.35",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^7.0.8",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.5",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.1",
+    "debug": "^2.6.1",
+    "express": "^4.15.2",
+    "express-jwt": "^5.1.0",
+    "fabric-ca-client": ">=1.0.0-alpha <1.0.0-alpha.10",
+    "fabric-client": ">=1.0.0-alpha <1.0.0-alpha.10",
+    "log4js": "^1.1.1",
+    "morgan": "^1.8.1"
+  }
+}
